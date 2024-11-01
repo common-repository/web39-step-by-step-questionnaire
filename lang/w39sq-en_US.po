@@ -1,0 +1,434 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Web39-Step-by-step-Questionnaire\n"
+"POT-Creation-Date: 2022-06-29 13:58+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Web39\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: admin/admin.php:30
+msgid "Список опросников-слайдеров"
+msgstr "List of slider questionnaires"
+
+#: admin/admin.php:31
+msgid "Список опросников"
+msgstr "List of questionnaires"
+
+#: admin/admin.php:38
+msgid "Добавить новый опросник-слайдер"
+msgstr "Add a new slider questionnaire"
+
+#: admin/admin.php:39
+msgid "Новый опросник"
+msgstr "New questionnaire"
+
+#: admin/admin.php:96
+msgid "Верификация запроса не пройдена"
+msgstr "Request verification failed"
+
+#: admin/admin.php:236
+msgid "Попытка постороннего доступа"
+msgstr "Attempted unauthorized access"
+
+#: admin/admin.php:240
+msgid "Опрос клиента"
+msgstr "Customer survey"
+
+#: admin/admin.php:249
+msgid "Контакты клиента"
+msgstr "Customer Contacts"
+
+#: admin/admin.php:262 classes/W39SQ.php:170
+msgid "Что-то пошло не так ..."
+msgstr "Something went wrong ..."
+
+#: admin/admin.php:270
+msgid "Ошибка отправки заявки W39SQ"
+msgstr "Error sending the application W39SQ"
+
+#: admin/includes/W39SQFormLoader.php:22
+msgid "Создание нового опросника"
+msgstr "Creating a new questionnaire"
+
+#: admin/includes/W39SQFormLoader.php:30 admin/includes/W39SQFormLoader.php:68
+msgid "Введите имя опросника"
+msgstr "Enter the name of the questionnaire"
+
+#: admin/includes/W39SQFormLoader.php:32
+msgid "Выберите шаблон"
+msgstr "Select a template"
+
+#: admin/includes/W39SQFormLoader.php:50 admin/includes/W39SQFormLoader.php:80
+#: admin/includes/W39SQFormLoader.php:257
+msgid "Сохранить"
+msgstr "Save"
+
+#: admin/includes/W39SQFormLoader.php:59
+msgid "Редактирование опросника"
+msgstr "Editing the questionnaire"
+
+#: admin/includes/W39SQFormLoader.php:121
+msgid "Вопрос"
+msgstr "Question"
+
+#: admin/includes/W39SQFormLoader.php:147
+msgid "Множественные ответы"
+msgstr "Multiple Responses"
+
+#: admin/includes/W39SQFormLoader.php:148
+msgid "Да"
+msgstr "Yes"
+
+#: admin/includes/W39SQFormLoader.php:151
+msgid "Нет"
+msgstr "No"
+
+#: admin/includes/W39SQFormLoader.php:157
+msgid "Добавить вариант"
+msgstr "Add response"
+
+#: admin/includes/W39SQFormLoader.php:162
+msgid "Вариант ответа"
+msgstr "Answer option"
+
+#: admin/includes/W39SQFormLoader.php:163
+msgid "Минимальная Цена"
+msgstr "Minimum Price"
+
+#: admin/includes/W39SQFormLoader.php:164
+msgid "Максимальная Цена"
+msgstr "Maximum Price"
+
+#: admin/includes/W39SQFormLoader.php:175
+#: admin/includes/W39SQFormLoader.php:443
+msgid "Дополнительный блок"
+msgstr "Additional block"
+
+#: admin/includes/W39SQFormLoader.php:176
+#: admin/includes/W39SQFormLoader.php:444
+msgid "Картинка"
+msgstr "Image"
+
+#: admin/includes/W39SQFormLoader.php:181
+#: admin/includes/W39SQFormLoader.php:448
+msgid "Текст"
+msgstr "Text"
+
+#: admin/includes/W39SQFormLoader.php:194
+#: admin/includes/W39SQFormLoader.php:460
+msgid "Загрузить"
+msgstr "Load"
+
+#: admin/includes/W39SQFormLoader.php:243
+msgid "Статус"
+msgstr "Status"
+
+#: admin/includes/W39SQFormLoader.php:247 admin/includes/W39SQTableList.php:83
+msgid "Дублировать"
+msgstr "Copy"
+
+#: admin/includes/W39SQFormLoader.php:253 admin/includes/W39SQTableList.php:92
+msgid "Удалить"
+msgstr "Remove"
+
+#: admin/includes/W39SQFormLoader.php:261
+msgid "Вам нужна помощь?"
+msgstr "Do you need help?"
+
+#: admin/includes/W39SQFormLoader.php:263
+msgid "Документация"
+msgstr "Documentation"
+
+#: admin/includes/W39SQFormLoader.php:264
+msgid "Частые вопросы"
+msgstr "FAQ"
+
+#: admin/includes/W39SQFormLoader.php:277
+msgid "Плагин Пошаговый опросник"
+msgstr "Plugin Step-by-step questionnaire"
+
+#: admin/includes/W39SQFormLoader.php:278
+msgid "Версия "
+msgstr "Version "
+
+#: admin/includes/W39SQFormLoader.php:281
+#, php-format
+msgid ""
+"Плагин бесплатный, предоставляется как есть. <br>Если у вас есть замечание "
+"или предложения, пишите мне на электронную почту %s<br>Поддержать разработку "
+"плагина можно переведя любую сумму на карту <b>%s</b>"
+msgstr ""
+"The plugin is free, provided as is. <br>If you have any comments or "
+"suggestions, write me an e-mail %s<br>You can support the development of the "
+"plugin by transferring any amount to the card<b>%s</b>"
+
+#: admin/includes/W39SQFormLoader.php:286
+msgid "Сайт разработчика"
+msgstr "Developer's website"
+
+#: admin/includes/W39SQFormLoader.php:289
+msgid "Создать Новый"
+msgstr "Add New"
+
+#: admin/includes/W39SQFormLoader.php:301
+msgid "Основные параметры"
+msgstr "Basic parameters"
+
+#: admin/includes/W39SQFormLoader.php:302
+#: admin/includes/W39SQFormLoader.php:304
+#: admin/includes/W39SQFormLoader.php:480 admin/includes/W39SQTableList.php:42
+msgid "Заголовок"
+msgstr "Title"
+
+#: admin/includes/W39SQFormLoader.php:306
+msgid "Информационный текст под заголовком (работают теги)"
+msgstr "Informative text under the header (tags work)"
+
+#: admin/includes/W39SQFormLoader.php:313
+msgid "Предварительный расчет стоимости"
+msgstr "Preliminary cost calculation"
+
+#: admin/includes/W39SQFormLoader.php:316
+msgid "Валюта"
+msgstr "Currency"
+
+#: admin/includes/W39SQFormLoader.php:322
+msgid "Почта"
+msgstr "Email"
+
+#: admin/includes/W39SQFormLoader.php:325
+msgid "Кому"
+msgstr "To"
+
+#: admin/includes/W39SQFormLoader.php:327
+msgid "Email результата"
+msgstr "Email of the result"
+
+#: admin/includes/W39SQFormLoader.php:330
+#: admin/includes/W39SQFormLoader.php:333
+msgid "От кого"
+msgstr "Fom"
+
+#: admin/includes/W39SQFormLoader.php:336
+#: admin/includes/W39SQFormLoader.php:339
+msgid "Тема письма"
+msgstr "Subject"
+
+#: admin/includes/W39SQFormLoader.php:352
+msgid "Настройки шаблона"
+msgstr "Template Settings"
+
+#: admin/includes/W39SQFormLoader.php:375
+msgid "Вопросы"
+msgstr "Questions"
+
+#: admin/includes/W39SQFormLoader.php:378
+msgid "Добавить вопрос"
+msgstr "Add question"
+
+#: admin/includes/W39SQFormLoader.php:398
+msgid "Информационный слайдер"
+msgstr "Information Slider"
+
+#: admin/includes/W39SQFormLoader.php:401
+#: admin/includes/W39SQFormLoader.php:484
+msgid "Информационный текст"
+msgstr "Informational text"
+
+#: admin/includes/W39SQFormLoader.php:407
+msgid "Поле с именем"
+msgstr "Field name"
+
+#: admin/includes/W39SQFormLoader.php:412
+msgid "Поле с телефоном"
+msgstr "Field phone"
+
+#: admin/includes/W39SQFormLoader.php:416
+msgid "Маска"
+msgstr "Mask"
+
+#: admin/includes/W39SQFormLoader.php:422
+msgid "Поле с email"
+msgstr "Field ename"
+
+#: admin/includes/W39SQFormLoader.php:427
+msgid "Дополнительное поле"
+msgstr "Additional field"
+
+#: admin/includes/W39SQFormLoader.php:436
+msgid "Подпись к кнопке"
+msgstr "Button caption"
+
+#: admin/includes/W39SQFormLoader.php:479
+msgid "Блок с выводом об успешной отправке запроса"
+msgstr "The block with the output about the successful sending of the request"
+
+#: admin/includes/W39SQFormLoader.php:489
+msgid "Ссылка на телефон"
+msgstr "Link with phone"
+
+#: admin/includes/W39SQFormLoader.php:494
+msgid "Ссылка на email"
+msgstr "Link with email"
+
+#: admin/includes/W39SQFormLoader.php:499
+msgid "Без контактных данных"
+msgstr "Without contact details"
+
+#: admin/includes/W39SQFormLoader.php:504
+msgid "Контактный телефон/email"
+msgstr "Contact phone/email"
+
+#: admin/includes/W39SQFormLoader.php:519
+msgid "Переопределение стилей"
+msgstr "Redefining styles"
+
+#: admin/includes/W39SQTableList.php:40
+msgid "Название"
+msgstr "Name"
+
+#: admin/includes/W39SQTableList.php:41
+msgid "Шорткод"
+msgstr "Shortcode"
+
+#: admin/includes/W39SQTableList.php:43
+msgid "Дата"
+msgstr "Date"
+
+#: admin/includes/W39SQTableList.php:82
+msgid "Изменить"
+msgstr "Edit"
+
+#: admin/includes/W39SQTableList.php:115
+#, php-format
+msgid "Изменить &#8220;%s&#8221;"
+msgstr "Edit &#8220;%s&#8221;"
+
+#: classes/W39SQ.php:160
+msgid "Расчет стоимости"
+msgstr "Cost calculation"
+
+#: classes/W39SQ.php:178
+#, php-format
+msgid "Опросник под №=%d не найден в базе."
+msgstr "The questionnaire no. =%d was not found in the database."
+
+#: classes/W39SQLastAnswer.php:22 classes/W39SQRepository.php:65
+msgid "Отправить"
+msgstr "Send"
+
+#: classes/W39SQLastAnswer.php:47
+msgid "Имя"
+msgstr "Name"
+
+#: classes/W39SQLastAnswer.php:51
+msgid "Телефон"
+msgstr "Phone"
+
+#: classes/W39SQLastAnswer.php:54
+msgid "Электронная почта"
+msgstr "Email"
+
+#: classes/W39SQLoadShort.php:27
+msgid "Заполните это поле!"
+msgstr "Field is required!"
+
+#: classes/W39SQQuestion.php:48
+#, php-format
+msgid "Вопрос %d из %d"
+msgstr "Question %d of %d"
+
+#: classes/W39SQRepository.php:50
+msgid "Ошибка поля answer-text"
+msgstr "Error with the answer-text field"
+
+#: classes/W39SQTemplates.php:52
+msgid "Цепочка"
+msgstr "Chain"
+
+#: classes/W39SQTemplates.php:55
+msgid "Главный цвет"
+msgstr "Main color"
+
+#: classes/W39SQTemplates.php:56
+msgid "Активный цвет"
+msgstr "Active color"
+
+#: classes/W39SQTemplates.php:57
+msgid "Вторичный цвет"
+msgstr "Secondary color"
+
+#: classes/W39SQTemplates.php:59
+msgid "Внешний круг ячейки"
+msgstr "The outer circle of the cell"
+
+#: classes/W39SQTemplates.php:60
+msgid "Внутренний круг ячейки"
+msgstr "The inner circle of the cell"
+
+#: classes/W39SQTemplates.php:62
+msgid "Надпись на кнопках"
+msgstr "The inscription on the buttons"
+
+#: classes/W39SQTemplates.php:64
+msgid "Размер описания (px)"
+msgstr "Description Size (px)"
+
+#: classes/W39SQTemplates.php:65
+msgid "Размер Шага (px)"
+msgstr "Step Size (px)"
+
+#: classes/W39SQTemplates.php:66
+msgid "Размер Вопроса (px)"
+msgstr "Question Size (px)"
+
+#: classes/W39SQTemplates.php:67
+msgid "Размер Ответа (px)"
+msgstr "Response Size (px)"
+
+#: classes/W39SQTemplates.php:68
+msgid "Размер Инфо блока (px)"
+msgstr "Data Block Size (px)"
+
+#: classes/W39SQTemplates.php:70
+msgid "назад"
+msgstr "back"
+
+#: classes/W39SQTemplates.php:70
+msgid "Кнопка Назад"
+msgstr "Back Button"
+
+#: classes/W39SQTemplates.php:71
+msgid "вперед"
+msgstr "forward"
+
+#: classes/W39SQTemplates.php:71
+msgid "Кнопка Вперед"
+msgstr "Forward Button"
+
+#: classes/W39SQTemplates.php:296
+msgid "Цифровой"
+msgstr "Digital"
+
+#: classes/W39SQTemplates.php:304
+msgid "Вселенная"
+msgstr "Universe"
+
+#~ msgid "Поле обязательно для заполнения!"
+#~ msgstr "The field is required to fill in!"
+
+#~ msgid "Автор"
+#~ msgstr "Author"

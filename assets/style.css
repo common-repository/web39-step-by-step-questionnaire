@@ -1,0 +1,320 @@
+@media (min-width: 600px) {
+    .mobile-visible {
+        display: none;
+    }
+    .not-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 599px) {
+    .mobile-visible {
+        display: block;
+    }
+    .not-mobile {
+        display: none;
+    }
+}
+
+.hidden-input {
+    display: none !important;
+}
+
+/* Слайдер */
+.w39sq-slider {
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform,-webkit-transform;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.w39sq-slider-item {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform,-webkit-transform;
+}
+
+@media (min-width: 600px) {
+    .w39sq-slider {
+        max-height: 314px;
+    }
+    .w39sq-slider-item, .w39sq-navigation, .w39sq-price-block {
+        flex-direction: row;
+    }
+}
+@media (max-width: 599px) {
+    .w39sq-slider-item, .w39sq-navigation, .w39sq-price-block {
+        flex-direction: column;
+    }
+
+    .mobile-visible {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .w39sq-price-block {
+        padding-top: 20px;
+    }
+}
+/* Элементы управления */
+.w39sq-question-field-group > label {
+    cursor: pointer;
+}
+
+.w39sq-question-field-group {
+    padding-top: 10px;
+    display: flex;
+    align-items: center
+}
+
+#w39sq input[type=radio], #w39sq input[type=checkbox]{
+    width: 28px !important;
+    height: 28px !important;
+    max-width: 28px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: .3s all;
+    margin-right: 4px;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    outline: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    transition: .05s border-color ease-in-out;
+}
+#w39sq input[type=radio] {
+    border-radius: 50%;
+    margin-right: 4px;
+    line-height: 12px;
+}
+#w39sq input[type=radio]:checked:before, #w39sq input[type=checkbox]:checked:before {
+    display: inline-block;
+    vertical-align: middle;
+    speak: none;
+    line-height: 1.1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+}
+
+#w39sq input[type=radio]:checked:before {
+    width: 14px !important;
+    height: 14px !important;
+    margin: 5px !important;
+    content: "⬤";
+    text-indent: -9999px;
+    border-radius: 50px;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+#w39sq input[type=checkbox]:checked:before {
+    font-size: 18px;
+    margin: 4px !important;
+    content: "✔";
+    font-weight: 900;
+}
+/* Блок навигации */
+.w39sq-navigation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.w39sq-navigation-button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.w39sq-price-block {
+    display: flex;
+}
+/* Сетка для последнего экрана */
+.w39sq-col-1, .w39sq-col-2, .w39sq-col-3, .w39sq-col-4 {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.w39sq-row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.w39sq-col-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.w39sq-col-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.w39sq-col-3 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.w39sq-col-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+@media (min-width: 600px) {
+    .w39sq-row {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 599px) {
+    .w39sq-row {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .w39sq-col-1, .w39sq-col-2, .w39sq-col-3, .w39sq-col-4 {
+        max-width: 100%;
+    }
+}
+
+#w39sq button {
+    width: 100%;
+}
+.w39sq-field-text, .w39sq-submit {
+    height: 55px;
+    width: 100%;
+}
+.w39sq-submit:active {
+    filter: contrast(80%);
+}
+.p-t-40 {
+    padding-top: 40px;
+}
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Кнопки навигации  */
+.w39sq-swiper-button {
+    cursor: pointer;
+}
+.w39sq-swiper-button.disabled {
+    background: #f0f0f0;
+    box-shadow: 0px 0px 10px rgb(207 207 207 / 40%);
+    opacity: 1;
+    cursor: not-allowed;
+}
+.w39sq-swiper-button.disabled:after {
+    color: #666666;
+}
+
+/*Стили Response */
+.title-response {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.description-response{
+    padding: 40px 4px;
+    line-height: 36px;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-response{
+    padding: 40px 4px;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+/*
+input.error {
+    border: 1px solid red;
+}*/
+/* вывод ошибки*/
+/*
+.error-span {
+    background: #ffe8e8;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    top: 40px;
+    color: #000;
+    border: 1px solid red;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.error-span:after {
+    content: '';
+    left: 20px;
+    bottom: -10px;
+    border: 5px solid transparent;
+    border-top: 5px solid red;
+}
+*/
+.error-check input[type=radio], .error-check label {
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+    text-decoration-line: underline;
+    display:inline-block;
+}
+
+.error-span-text {
+    font-size: 11px;
+    color: red;
+}
+/*
+@media (min-width: 600px) {
+    .error-span, .error-span:after {
+        position: absolute;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 599px) {
+    .error-span, .error-span:after {
+        position: static;
+        font-size: 16px;
+    }
+}*/
+/* SWIPPER */
+
+.w39sq-swipper {
+    padding-top: 22px;
+    touch-action: pan-y;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    z-index: 1;
+}

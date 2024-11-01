@@ -1,0 +1,217 @@
+
+/* Переменные */
+
+
+/* Контейнера для редактирования форм */
+
+.w39sq-container-edit {
+    display: flex;
+    flex-direction: row;
+}
+
+.w39sq-main-container {
+    width: 100%;
+    padding: 10px;
+}
+
+.w39sq-side-container {
+    width: 400px;
+    padding: 10px;
+}
+/* Блоки в главном контейнере */
+.w39sq-block-data-container {
+    padding: 5px 20px;
+    margin-top: 12px;
+    border: 1px solid #888;
+    border-radius: 0;
+}
+
+.w39sq-panel {
+    margin-top: 20px;
+    border: 1px solid #333;
+    width: 60%;
+    min-width: 400px;
+    padding: 10px 5px;
+    background-color: #ffffff;
+}
+/* Блоки в пагинации */
+.w39sq-block-pagination {
+    display: flex;
+    flex-direction: row;
+}
+.w39sq-pagination-list {
+    width: 40%;
+    background-color: white;
+    min-width: 300px;
+    padding: 10px;
+}
+.w39sq-pagination-fields {
+    width: 60%;
+    background-color: #ddd;
+    padding: 10px;
+}
+/* Элементы управления */
+input {
+
+}
+/* Поле ввода имени опросника*/
+input.w39sq-name {
+    background-color: #fff;
+    padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: 0;
+    margin: 0 0 3px;
+}
+/* Остальные поля ввода*/
+input.w39sq-field {
+    background-color: #fff;
+    padding: 3px 8px;
+    font-size: 1em;
+    line-height: 100%;
+    outline: 0;
+    margin: 0 0 3px;
+}
+input[type=text].w39sq-field {
+    width: 100%;
+}
+.w39sq-field-sm {
+    width: 60px !important;
+    padding: 0 4px !important;;
+    height: 24px !important;;
+    min-height: 24px !important;;
+    text-align: right !important;
+    margin: 0 !important;;
+}
+
+/* Поля для шаблонных переменных*/
+.w39sq-template-field {
+    display: inline-block;
+    margin: 4px 20px;
+    width: 160px;
+}
+
+.w39sq-template-field label {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.w39sq-template-field input[type=color] {
+    margin-top: 12px;
+    height: 60px;
+    width: 100%;
+}
+.w39sq-template-field input[type=number] {
+    margin-top: 12px;
+    font-size: 24px;
+    width: 100%;
+}
+
+button[type=submit] {
+
+}
+textarea {
+    overflow: auto;
+    padding: 2px 6px;
+    line-height: 1.42857143;
+    resize: vertical;
+    width: 100%;
+}
+
+/* Выбор шаблона плагины */
+label.img-radio-button > input[type=radio] { /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+label.img-radio-button > input[type=radio] + img{ /* IMAGE STYLES */
+    cursor:pointer;
+    border:2px solid transparent;
+}
+label.img-radio-button > input[type=radio]:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+    border:2px solid #f00;
+}
+
+/* Имитация кнопки */
+.touch-block {
+    cursor: pointer;
+    color: #0a4b78;
+}
+.touch-block:hover {
+    color: #0b7ccb;
+}
+
+/* Стили в блоке Вопросы */
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* блоки полей в информационном слайдере*/
+.fields-in-row {
+    padding-top: 10px;
+
+}
+.w39sq-img-question {
+    max-height: 150px;
+    max-width: 100%;
+}
+.w39sq-submit-button {
+    cursor: pointer;
+    padding: 4px;
+}
+.w39sq-a-button {
+    margin-top: 10px;
+    border: 1px solid #2271b1;
+    color: #2271b1;
+    border-radius: 2px;
+    background: #f6f7f7;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.w39sq-a-button:hover {
+    text-decoration: none;
+    color: #1a5381;
+    background: #dfe0e0;
+}
+
+.w39sq-submit-button:hover{
+    color: #135e96;
+}
+.w39sq-submit-remove {
+    background: inherit;
+    color: #530000;
+    border: none;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.w39sq-submit-remove:hover {
+    color: red;
+}
+.w39sq-card {
+    position: relative;
+    margin-top: 20px;
+
+    min-width: 255px;
+    max-width: 520px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    background: #fff;
+    box-sizing: border-box;
+}
+.w39sq-card-body{
+    padding: 0.7em 2em 1em;
+}
+.w39sq-card-footer{
+    display: flex;
+    padding: 10px;
+    background-color: #f6f7f7;
+    margin-top: 10px;
+    border-top: 1px solid #c3c4c7;
+
+}
+.w39sq-display-none {
+    display: none;
+}
